@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 200px auto;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 6px 6px 0px 1px rgb(0, 0, 0);
+    
+}
+
+.card:hover{
+    box-shadow: 15px 15px 0px 1px rgb(0, 0, 0);
+    transition: all 1s ease;
+}
+
+
+
+.card-image{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.learning{
+    padding: 7px 10px 7px 10px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.body{
+    font-size: 16px;
+    color: #7d7d7d;
+}
+
+h1{
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+
+    
+}
+
+h1:hover{
+    color:hsl(47, 88%, 63%);
+}
