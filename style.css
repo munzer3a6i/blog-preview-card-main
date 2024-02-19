@@ -26,11 +26,13 @@ body{
     transition: all 1s ease;
 }
 
-
-
+picture .card-image{
+    width: 100%;
+}
 .card-image{
     border-radius: 10px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .learning{
